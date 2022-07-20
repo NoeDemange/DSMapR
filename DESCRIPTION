@@ -1,0 +1,30 @@
+Package: DSMapR
+Title: Analyse de matrice organisee par double seriation
+Version: 0.0.0.9000
+Authors@R: c(person(given = "Guillaume",
+           family = "Sapriel",
+           role = c("aut", "cre"),
+           email = ("guillaume.sapriel@uvsq.fr"),
+           comment = c(ORCID = "0000-0003-0549-9376")),
+           person(given = "Noe",
+           family = "Demange",
+           role = "aut",
+           email = ("noe.demange@ens.uvsq.fr")))
+Description: (Ce package propose diffentes methodes d'analyse de la structure de la matrice, 
+  ainsi qu'une analyse de ces resultats et une fonction d'affichage.)
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0
+Imports: 
+    circlize,
+    ComplexHeatmap,
+    ecp,
+    grDevices,
+    grid,
+    seriation,
+    stats,
+    viridis
+LinkingTo: Rcpp
+Depends: 
+    R (>= 2.10)
